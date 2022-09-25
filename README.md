@@ -15,14 +15,18 @@
 	<img src="./assets/preview.png"/>
 </p>
 
-## Usage
+## ⚙️ Usage
 
-1. Fork this repository.
-2. Enable Github Pages for master branch.
-	* Settings > Pages 
-3. Change to any catppuccin theme in `config.js`
+1. Clone https://github.com/lewisdoesstuff/Bento/tree/themes with `git clone -b themes https://github.com/lewisdoesstuff/Bento.git`
+2. Clone this repository with `git clone https://github.com/catppuccin/Bento BentoCatppuccin`
+3. Copy the assets directory from `BentoCatppuccin` to `Bento` with `cp -r BentoCatppuccin/assets Bento/assets`
+4. CD into Bento with `cd Bento`
+5. Commit everything with `git add . && git commit -m "feat: add catppuccin themes"`
+6. Change to any catppuccin theme in `config.js`
     * Set `theme` to `latte`, `frappe`, `macchiato`, or `mocha`.
-4. Configure Bento normally
+7. Configure Bento normally
+
+And if you want, you can use Github Pages to host this on your Github account.
 
 ## 💝 Thanks to
 
