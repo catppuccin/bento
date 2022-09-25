@@ -72,3 +72,5 @@ if (CONFIG.changeThemeByHour && CONFIG.autoChangeTheme && !CONFIG.changeThemeByO
 		disableDark();
 	}
 }
+
+enableDark()
