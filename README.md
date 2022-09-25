@@ -1,35 +1,34 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for <a href="https://github.com/catppuccin/template">App</a>
+	Catppuccin for <a href="https://github.com/lewisdoesstuff/Bento/tree/themes">Bento</a>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
 <p align="center">
-	<a href="https://github.com/catppuccin/template/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/template?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/template/issues"><img src="https://img.shields.io/github/issues/catppuccin/template?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/template/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/template?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/bento/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/bento?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/bento/issues"><img src="https://img.shields.io/github/issues/catppuccin/bento?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/bento/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/bento?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/sample.png"/>
+	<img src="./assets/preview.png"/>
 </p>
 
 ## Usage
 
-1. Clone this repository locally
-2. Open the app's settings
-3. Select `import theme` and browse to where you cloned Catppuccin
-4. Select it
-
-## 🙋 FAQ (optional)
-
--	Q: **_"Where can I find the doc?"_**
-	A: Run `:help theme`
+1. Fork this repository.
+2. Enable Github Pages for master branch.
+	* Settings > Pages 
+3. Change to any catppuccin theme in `config.js`
+    * Set `theme` to `latte`, `frappe`, `macchiato`, or `mocha`.
+4. Configure Bento normally
 
 ## 💝 Thanks to
 
-- [Human](https://github.com/catppuccin)
+- [BlueFalconHD](https://github.com/bluefalconhd)
+- [migueravila](https://github.com/migueravila) for original [Bento](https://github.com/migueravila/Bento)
+- [lewisdoesstuff](https://github.com/lewisdoesstuff) for the [Bento theme system](https://github.com/lewisdoesstuff/Bento/tree/themes)
 
 &nbsp;
 
