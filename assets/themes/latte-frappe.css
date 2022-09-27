@@ -1,0 +1,35 @@
+@import url(catppuccin_colours.css);
+
+
+:root {
+
+	/* Light Colors  */
+	--background: var(--latte-base); /* Background color */
+	--accent: var(--latte-surface0); /* Hover color */
+	--cards: var(--latte-mantle); /* Cards color */
+
+	/* Fonts Color */
+	--fg: var(--latte-text); /* Foreground color */
+	--sfg: var(--latte-rosewater); /* Secondary Foreground color */
+
+	/* Image background  */
+	--imgcol: var(--background);
+
+}
+
+
+.darktheme {
+
+	/* Dark Colors  */
+	--background: var(--frappe-base); /* Background color */
+	--accent: var(--frappe-surface0); /* Hover color */
+	--cards: var(--frappe-mantle); /* Cards color */
+
+	/* Fonts Color */
+	--fg: var(--frappe-text); /* Foreground color */
+	--sfg: var(--frappe-rosewater); /* Secondary Foreground color */
+
+	/* Image background  */
+	--imgcol: var(--background);
+
+}
