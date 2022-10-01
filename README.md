@@ -15,23 +15,25 @@
 	<img src="./assets/preview.png"/>
 </p>
 
+&nbsp;
+
 ## ⚙️ Usage
 
-1. Clone https://github.com/lewisdoesstuff/Bento/tree/themes with `git clone -b themes https://github.com/lewisdoesstuff/Bento.git`
-2. Clone this repository with `git clone https://github.com/catppuccin/Bento BentoCatppuccin`
+1. Clone [lewisdoesstuff's Bento Fork](https://github.com/lewisdoesstuff/Bento/tree/themes) with `git clone -b themes https://github.com/lewisdoesstuff/Bento.git`
+2. Clone this repository with `git clone https://github.com/catppuccin/bento BentoCatppuccin`
 3. Copy the assets directory from `BentoCatppuccin` to `Bento` with `cp -r BentoCatppuccin/assets Bento/assets`
 4. CD into Bento with `cd Bento`
-5. Commit everything with `git add . && git commit -m "feat: add catppuccin themes"`
-6. Change to any catppuccin theme in `config.js`
-    * Set `theme` to `latte`, `frappe`, `macchiato`, or `mocha`.
-7. Configure Bento normally
+5. Change to any catppuccin theme in `config.js`
+    * Set `theme` to `latte-frappe`, `latte-macchiato`, or `latte-mocha` depending on your preference.
+6. Configure Bento normally
 
-And if you want, you can use Github Pages to host this on your Github account.
+&nbsp;
 
 ## 💝 Thanks to
 
 - [BlueFalconHD](https://github.com/bluefalconhd)
-- [migueravila](https://github.com/migueravila) for original [Bento](https://github.com/migueravila/Bento)
+- [Andreas Grafen](https://github.com/andreasgrafen)
+- [migueravila](https://github.com/migueravila) for [Bento](https://github.com/migueravila/Bento) itself
 - [lewisdoesstuff](https://github.com/lewisdoesstuff) for the [Bento theme system](https://github.com/lewisdoesstuff/Bento/tree/themes)
 
 &nbsp;
