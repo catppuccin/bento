@@ -1,8 +1,8 @@
-<<<<<<< HEAD
-/* Hello from the Catppuccin team! >^w^< */
-@import url(catppuccin_colours.css); /* Import Catppuccin colors */
+@import url(catppuccin_colours.css);
+
 
 :root {
+
   /* Light Colors  */
   --background: var(--latte-base); /* Background color */
   --accent: var(--latte-surface0); /* Hover color */
@@ -13,19 +13,17 @@
   --sfg: var(--latte-rosewater); /* Secondary Foreground color */
 
   /* Image background  */
+  --imgbg: url(assets/background.jpg);
   --imgcol: linear-gradient(
-    hsla(
-      var(--latte-base-h) calc(var(--latte-base-s) * 1%)
-        calc((var(--latte-base-l) + 0) * 1%) / 70%
-    ),
-    hsla(
-      var(--latte-base-h) calc(var(--latte-base-s) * 1%)
-        calc((var(--latte-base-l) + 0) * 1%) / 90%
-    )
+    hsla(var(--latte-base-h) calc(var(--latte-base-s) * 1%) calc((var(--latte-base-l) + 0) * 1%) / 70%),
+    hsla(var(--latte-base-h) calc(var(--latte-base-s) * 1%) calc((var(--latte-base-l) + 0) * 1%) / 90%)
   );
+
 }
 
+
 .darktheme {
+
   /* Dark Colors  */
   --background: var(--mocha-base); /* Background color */
   --accent: var(--mocha-surface0); /* Hover color */
@@ -37,56 +35,8 @@
 
   /* Image background  */
   --imgcol: linear-gradient(
-    hsla(
-      var(--mocha-base-h) calc(var(--mocha-base-s) * 1%)
-        calc((var(--mocha-base-l) + 0) * 1%) / 70%
-    ),
-    hsla(
-      var(--mocha-base-h) calc(var(--mocha-base-s) * 1%)
-        calc((var(--mocha-base-l) + 0) * 1%) / 90%
-    )
+    hsla(var(--mocha-base-h) calc(var(--mocha-base-s) * 1%) calc((var(--mocha-base-l) + 0) * 1%) / 70%),
+    hsla(var(--mocha-base-h) calc(var(--mocha-base-s) * 1%) calc((var(--mocha-base-l) + 0) * 1%) / 90%)
   );
-=======
-@import url(catppuccin_colours.css);
 
-
-:root {
-
-	/* Light Colors  */
-	--background: var(--latte-base); /* Background color */
-	--accent: var(--latte-surface0); /* Hover color */
-	--cards: var(--latte-mantle); /* Cards color */
-
-	/* Fonts Color */
-	--fg: var(--latte-text); /* Foreground color */
-	--sfg: var(--latte-rosewater); /* Secondary Foreground color */
-
-	/* Image background  */
-	--imgbg: url(assets/background.jpg);
-	--imgcol: linear-gradient(
-		hsla(var(--latte-base-h) calc(var(--latte-base-s) * 1%) calc((var(--latte-base-l) + 0) * 1%) / 70%),
-		hsla(var(--latte-base-h) calc(var(--latte-base-s) * 1%) calc((var(--latte-base-l) + 0) * 1%) / 90%)
-	);
-
-}
-
-
-.darktheme {
-
-	/* Dark Colors  */
-	--background: var(--mocha-base); /* Background color */
-	--accent: var(--mocha-surface0); /* Hover color */
-	--cards: var(--mocha-mantle); /* Cards color */
-
-	/* Fonts Color */
-	--fg: var(--mocha-text); /* Foreground color */
-	--sfg: var(--mocha-rosewater); /* Secondary Foreground color */
-
-	/* Image background  */
-	--imgcol: linear-gradient(
-		hsla(var(--mocha-base-h) calc(var(--mocha-base-s) * 1%) calc((var(--mocha-base-l) + 0) * 1%) / 70%),
-		hsla(var(--mocha-base-h) calc(var(--mocha-base-s) * 1%) calc((var(--mocha-base-l) + 0) * 1%) / 90%)
-	);
-
->>>>>>> 69ee0efb52509f219b95d7efcdcd12d0e103a240
 }
