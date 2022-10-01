@@ -15,6 +15,8 @@
   <img src="./assets/preview.png"/>
 </p>
 
+> **Note**: A live demo can be found [here.](https://bluefalconhd.github.io/ctp-bento-demo/)
+
 &nbsp;
 
 ## ⚙️ Usage
