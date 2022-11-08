@@ -29,6 +29,8 @@
     * Set `theme` to `latte-frappe`, `latte-macchiato`, or `latte-mocha` depending on your preference.
 6. Configure Bento normally
 
+An alternative to the process above you can also use [Bento Next](https://github.com/lewisdoesstuff/Bento-next) – a Fork of Bento based on Vue3 with additional features. Bento Next ships all Catppuccin Flavours by default.
+
 &nbsp;
 
 ## 💝 Thanks to
