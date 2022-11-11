@@ -21,7 +21,7 @@
 
 ## ⚙️ Usage
 
-1. Clone [lewisdoesstuff's Bento Fork](https://github.com/lewisdoesstuff/Bento/tree/themes) with `git clone -b themes https://github.com/lewisdoesstuff/Bento.git`
+1. Clone [lewisdoesstuff's Bento Fork](https://github.com/lewisdoesstuff/Bento) with `git clone https://github.com/lewisdoesstuff/Bento.git`
 2. Clone this repository with `git clone https://github.com/catppuccin/bento BentoCatppuccin`
 3. Copy the assets directory from `BentoCatppuccin` to `Bento` with `cp BentoCatppuccin/assets/themes/* Bento/assets/themes/`
 4. CD into Bento with `cd Bento`
